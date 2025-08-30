@@ -6,14 +6,16 @@
    
 ## สารบัญ Table of Contents
 
- - String Slices
+  [- String Slices](#String_Slices)
   - Substitution Methods
-    - String#sub &&  String#sub!
-    - String#gsub &&  String#gsub!
+    - String#sub 
+    - String#sub!
+    - String#gsub 
+    - String#gsub!
  - เปรียบเทียบกับภาษาอื่นๆ
 
 ## วิธีการ Changing a Section of a String 
-## String Slice 
+## String Slices 
    >เป็นเมธอดที่ใช้ในการเปลี่ยนแปลงคำในสตริง โดยใช้สัญลักษณ์[] #แก้
 #### ตัวอย่าง
    ```ruby
@@ -79,18 +81,20 @@ puts myString
 ## Substitution Methods
    > นิยามรวม
    
-   ### แบ่งออกเป็น 2 วิธี ได้แก่
-   - String#sub &&  String#sub!
+   ### แบ่งออกเป็น 4 วิธี ได้แก่
+   - String#sub 
+   
+   -  String#sub!
       นิยาม
       ตัวอย่าง
       เทียบกับ c python java
       
-    - String#gsub &&  String#gsub!
+    - String#gsub
+    -  String#gsub!
       นิยาม
       ตัวอย่าง
-      เทียบกับ c python java
-  
-  ใส่ตัวอย่าง 
+      
+  เทียบกับ c python java
     ละก้ใส่ตัวอย่างจาก c python java
 ## เครดิต
 
