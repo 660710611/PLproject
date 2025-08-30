@@ -86,15 +86,17 @@ puts myString
    -  String#sub!
       นิยาม
       ตัวอย่าง
-      เทียบกับ c python java
+    
       
     - String#gsub
-    -  String#gsub!
+    
+    - String#gsub!
       นิยาม
       ตัวอย่าง
       
+      
   เทียบกับ c python java
-    ละก้ใส่ตัวอย่างจาก c python java
+   ละก้ใส่ตัวอย่างจาก c python java
 ## เครดิต
 
 สรุปก่อนนะ: **Ruby สามารถแก้ไข string แบบ _mutable_ ได้ (string slice แล้วเปลี่ยนค่าได้เลย)**  
