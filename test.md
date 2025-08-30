@@ -1,35 +1,34 @@
 ###
 # Changing a Section of a String 
 
- >  เป็นการใช้เมธอดต่างๆกับสตริง ซึ่งทำให้สตริงเกิดการเปลี่ยนแปลงโดยที่ไม่ได้เกิดจากการสร้างสตริงใหม่
+ >  เป็นการใช้เมธอดต่างๆกับสตริง ซึ่งทำให้สตริงเกิดการเปลี่ยนแปลงโดยที่ไม่ได้เกิดจากการสร้างสตริงใหม่ #เพิ่มเติม
   #### โดยมีวิธีการพื้นฐาน ดังนี้ 
    
 ## สารบัญ Table of Contents
 
  - String Slices
   - Substitution Methods
-    - sub && sub!
-    - gsub && gsub!
+    - String#sub &&  String#sub!
+    - String#gsub &&  String#gsub!
  - เปรียบเทียบกับภาษาอื่นๆ
 
 ## วิธีการ Changing a Section of a String 
-### String Slice 
-   >เป็นเมธอดที่ใช้ในการเปลี่ยนแปลงคำในสตริง โดยใช้สัญลักษณ์[]
+## String Slice 
+   >เป็นเมธอดที่ใช้ในการเปลี่ยนแปลงคำในสตริง โดยใช้สัญลักษณ์[] #แก้
 #### ตัวอย่าง
    ```ruby
 myString = "Silpakorn University"
-puts 'mySring'[0] 
-
+puts 'myString'[0] 
+# เริ่มนับจากตัวอักษรแรก เป็นตำแหน่งที่ 0
 ```
-คอมเม้นว่า เริ่มนับยังไง 
 <details>
    <summary>Output</summary>
 
-    c value: 1  
-    b value: 1  
+    > S
 
 </details>
-  #####  อธิบาย  แต่ถ้าไม่มีเท่ากับจะไม่แปลงค่า
+
+>  อธิบาย  แต่ถ้าไม่มีเท่ากับจะไม่แปลงค่า #แก้
 
 ```ruby
 myString = "Silpakorn University"
@@ -40,8 +39,7 @@ puts myString
 <details>
    <summary>Output</summary>
 
-    c value: 1  
-    b value: 1  
+    > Silpakorn Educator
 
 </details>
  
@@ -56,8 +54,7 @@ puts myString
 <details>
    <summary>Output</summary>
 
-    c value: 1  
-    b value: 1  
+    > Silpakorn is University
 
 </details>
    
@@ -65,33 +62,36 @@ puts myString
  >แปลงโดยอิงจากอินเด็ก
 ```ruby
 myString = "Silpakorn University"
-myString[9...25] = "is The Best "
+myString[9...20] = " is The Best "
 puts myString
+#นับตั้งแต่ตัวอักษรตัวที่ 9 ถึง ตัวที่ 25 
+#แม้ช่องจะเกินก็ไม่เป็นอะไร ขอแค่เริ่มต้นที่
 ```
 <details>
    <summary>Output</summary>
-
-    c value: 1  
-    b value: 1  
+   
+     > Silpakorn is The Best 
 
 </details>
 
 > แปลงโดยอิงจากช่วงค่าอินเดก
-> 
-ใส่ตัวอย่าง 
-    ละก้ใส่ตัวอย่างจาก c python java
-### Substitution Methods
-    นิยามรวม
-    แบ่งออกเป็น 2 วิธี ได้แก่
-    1.sub && sub!
+
+## Substitution Methods
+   > นิยามรวม
+   
+   ### แบ่งออกเป็น 2 วิธี ได้แก่
+   - String#sub &&  String#sub!
       นิยาม
       ตัวอย่าง
       เทียบกับ c python java
-    2.gsub && gsub!
+      
+    - String#gsub &&  String#gsub!
       นิยาม
       ตัวอย่าง
       เทียบกับ c python java
   
+  ใส่ตัวอย่าง 
+    ละก้ใส่ตัวอย่างจาก c python java
 ## เครดิต
 
 สรุปก่อนนะ: **Ruby สามารถแก้ไข string แบบ _mutable_ ได้ (string slice แล้วเปลี่ยนค่าได้เลย)**  
