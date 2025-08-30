@@ -1,5 +1,5 @@
 # Changing a Section of a String 
-    เป็นการใช้เมธอดต่างๆกับสตริง ซึ่งทำให้สตริงเกิดการเปลี่ยนแปลงโดยที่ไม่ได้เกิดจาการสร้างสตริงใหม่
+    เป็นการใช้เมธอดต่างๆกับสตริง ซึ่งทำให้สตริงเกิดการเปลี่ยนแปลงโดยที่ไม่ได้เกิดจากการสร้างสตริงใหม่
   ##### โดยมีวิธีการพื้นฐาน ดังนี้ 
    
 ## สารบัญ Table of Contents
@@ -19,6 +19,7 @@ myString = "Silpakorn University"
 puts 'mySring'[0] 
 
 ```
+
 คอมเม้นว่า เริ่มนับยังไง 
  ####  ทำ dropdown output 
   #####  อธิบาย  แต่ถ้าไม่มีเท่ากับจะไม่แปลงค่า
@@ -59,3 +60,11 @@ myString = "Silpakorn University"
 puts 'mySring'[0]
 
 ```
+
+<details>
+   <summary>Output</summary>
+
+    c value: 1  
+    b value: 1  
+
+</details>
