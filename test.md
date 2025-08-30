@@ -6,9 +6,9 @@
    
 ## สารบัญ Table of Contents
 
-  [- String Slices](#String_Slices)
-  - Substitution Methods
-    - String#sub 
+  - [String Slices](#string-slices)
+  - [Substitution Methods](#substitution-methods)
+    - [String#sub](#stringsub)
     - String#sub!
     - String#gsub 
     - String#gsub!
@@ -67,7 +67,6 @@ myString = "Silpakorn University"
 myString[9...20] = " is The Best "
 puts myString
 #นับตั้งแต่ตัวอักษรตัวที่ 9 ถึง ตัวที่ 25 
-#แม้ช่องจะเกินก็ไม่เป็นอะไร ขอแค่เริ่มต้นที่
 ```
 <details>
    <summary>Output</summary>
