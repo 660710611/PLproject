@@ -14,10 +14,29 @@
     เป็นเมธอดที่ใช้ในการเปลี่ยนแปลงคำในสตริง โดยใช้สัญลักษณ์[]
 #### ตัวอย่าง
     
-    
-    แต่ถ้าไม่มีเท่ากับจะไม่แปลงค่า
+   ```
+myString = "Silpakorn University"
+puts 'mySring'[0] 
+
+```
+คอมเม้นว่า เริ่มนับยังไง 
+ ####  ทำ dropdown output 
+  #####  อธิบาย  แต่ถ้าไม่มีเท่ากับจะไม่แปลงค่า
+   ```
+myString = "Silpakorn University"
+myString["University"] = "Educator"
+puts myString
+
+```
+  
     แบบแปลงแทนที่คำในสตริงโดยตรง
     แปลงโดยอิงจากอินเด็ก
+   ```
+myString = "Silpakorn University"
+myString[9] = " is "
+puts myString
+
+```
     แปลงโดยอิงจากช่วงค่าอินเดก
     ใส่ตัวอย่าง 
     ละก้ใส่ตัวอย่างจาก c python java
@@ -35,8 +54,8 @@
   
 ## เครดิต
 
-``` Ruby
-
-ss
+```
+myString = "Silpakorn University"
+puts 'mySring'[0]
 
 ```
