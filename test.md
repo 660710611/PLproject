@@ -144,10 +144,10 @@ puts myString
 <details>
    <summary>Output</summary>
    
->I **ke to wa*k around my house
->I love to walk around my house
->I like to walk around my house
->I like to walk around my house
+>I **ke to wa*k around my house </br>
+>I love to walk around my house </br>
+>I like to walk around my house </br>
+>I like to walk around my house </br>
 
 </details>
     
