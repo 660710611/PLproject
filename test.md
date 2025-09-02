@@ -26,7 +26,7 @@ puts 'myString'[0]
 <details>
    <summary>Output</summary>
 
-    > S
+ > S
 
 </details>
 
@@ -41,7 +41,7 @@ puts myString
 <details>
    <summary>Output</summary>
 
-    > Silpakorn Educator
+ > Silpakorn Educator
 
 </details>
  
@@ -56,7 +56,7 @@ puts myString
 <details>
    <summary>Output</summary>
 
-    > Silpakorn is University
+  > Silpakorn is University
 
 </details>
    
@@ -71,7 +71,7 @@ puts myString
 <details>
    <summary>Output</summary>
    
-     > Silpakorn is The Best 
+   > Silpakorn is The Best 
 
 </details>
 
@@ -100,10 +100,10 @@ puts myString
 <details>
    <summary>Output</summary>
    
-> I *ike to walk around my house
->I love to walk around my house
->I like to walk around my house     #ไม่เจอคำว่า 'eat' สตริงจึงไม่เปลี่ยนแปลง
->I like to walk around my house     #ไม่มีการเปลี่ยนแปลงสตริงเดิม
+>I *ike to walk around my house </br>
+>I love to walk around my house </br>
+>I like to walk around my house     #ไม่เจอคำว่า 'eat' สตริงจึงไม่เปลี่ยนแปลง </br>
+>I like to walk around my house     #ไม่มีการเปลี่ยนแปลงสตริงเดิม </br>
 
 </details>
 
@@ -166,10 +166,10 @@ puts myString
 <details>
    <summary>Output</summary>
 
->I **ke to wa*k around my house 
->(                                                  ) #คืนค่าเป็น nil   
->(                                                  ) #คืนค่าเป็น nil   
->I **ke to wa*k around my house #สตริงเดิมถูกเปลี่ยนแปลง
+>I **ke to wa*k around my house </br>
+>(                                                  ) #คืนค่าเป็น nil   </br>
+>(                                                  ) #คืนค่าเป็น nil   </br>
+>I **ke to wa*k around my house #สตริงเดิมถูกเปลี่ยนแปลง </br>
 
 </details>
       
