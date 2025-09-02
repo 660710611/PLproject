@@ -122,10 +122,10 @@ puts myString
 <details>
    <summary>Output</summary>
    
->I *ike to walk around my house  
->(                                                  ) #คืนค่าเป็น nil   
->(                                                  ) #คืนค่าเป็น nil   
->I *ike to walk around my house #สตริงเดิมที่ถูกเปลี่ยนแปลง
+>I *ike to walk around my house  </br>
+>(                                                  ) #คืนค่าเป็น nil   </br>
+>(                                                  ) #คืนค่าเป็น nil   </br>
+>I *ike to walk around my house #สตริงเดิมที่ถูกเปลี่ยนแปลง </br>
 
 </details>
     
@@ -201,8 +201,8 @@ int main() {
 <details>
    <summary>Output</summary>
 
->Salpakorn University
->Salpakorn Un* vers* ty
+>Salpakorn University </br>
+>Salpakorn Un* vers* ty </br>
 
 
 </details>
@@ -229,8 +229,8 @@ print(mystring1.replace("i", "*"))
 <details>
    <summary>Output</summary>
 
->Salpakorn University
->S * lpakorn Un*vers*ty
+>Salpakorn University </br>
+>S * lpakorn Un*vers*ty </br>
 
 </details>
 
@@ -261,9 +261,9 @@ public class Main {
 <details>
    <summary>Output</summary>
 
->Salpakorn University
->S* lpakorn Un* vers* ty
-
+>Salpakorn University </br>
+>S* lpakorn Un* vers* ty </br>
+ 
 </details>
 
 
