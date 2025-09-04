@@ -276,4 +276,9 @@ public class Main {
 
 
 ## Reference 
+String. (n.d.). In Ruby-Doc.org. Retrieved September 5, 2025, from https://ruby-doc.org/3.4.1/String.html
+Mandal, M. (2010). Ruby recipes: A problem-solution approach. Apress.
+Cooper, P. (2016). Beginning Ruby: From novice to professional (3rd ed.). Apress.
+Thomas, D., Fowler, C., & Hunt, A. (2013). Programming Ruby 1.9 & 2.0: The pragmatic programmers’ guide (4th ed.). Pragmatic Bookshelf.
+
 
